@@ -46,7 +46,7 @@ if country:
 #Check to see if the country is in the data and then output
     if not country_data.empty:
         st.dataframe(country_data, use_container_width=True)
-        st.write("This table is interative. Meaning you can widen columns and " \
+        st.write("This table is interactive. Meaning you can widen columns and " \
          "use the scrollbar to see more information." "\n"
          "(Not: The higher the corruption number, the lower corruption in the country.)")
     else:
